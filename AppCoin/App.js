@@ -1,16 +1,19 @@
 
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text,View, SafeAreaView, Platform } from 'react-native';
+import { StyleSheet, StatusBar, Text,View, SafeAreaView, Platform } from 'react-native';
 import CurrentPrice from './src/components/CurrentPrice';
+import HistoryGraphic from './src/components/HistoryGraphic';
+import QuotationList from './src/components/QuotationList';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
         <StatusBar
+        backgroundColor='red'
         style='light-content'
-        backgroundColor='#fff'
         />
       <CurrentPrice/>
+      <HistoryGraphic/>
+      <QuotationList/>
     </SafeAreaView>
   );
 }
