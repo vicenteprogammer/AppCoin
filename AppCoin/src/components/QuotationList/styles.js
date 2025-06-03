@@ -12,13 +12,14 @@ const styles = StyleSheet.create({
     buttonQuery:{
         width: 50,
         height: 30,
-        backgroundColor: '#003eff',
+        backgroundColor: '#046FC8',
         borderRadius: 50,
         alignItems: 'center'
     },
     textButton:{
         color: '#fff',
-        fontSize: 20
+        fontSize: 18,
+        fontWeight: 'bold'
     }
 })
 
