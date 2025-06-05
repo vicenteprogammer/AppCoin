@@ -13,13 +13,11 @@ function addZero(number){
   return number 
 }
 
-function url(qtdDays){
+function url(){
   const date = new Date()
-  const listLastDays = qtdDays
-  const endDate = ';'
-  const startDate= ''
+  const listLastDays = 10
 
-  return `https://api.coindesk.com`
+  return `https://economia.awesomeapi.com.br/json/daily/ETH-BRL/${listLastDays}`
 }
 
 

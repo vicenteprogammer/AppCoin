@@ -2,13 +2,14 @@ import React, { Fragment } from "react";
 import { Text, View, TouchableOpacity, ScrollView } from "react-native";
 import styles from "./styles";
 
+
 export default function QuotationList(){
     return(
         <Fragment>
             <View style={styles.filters}>
                 <TouchableOpacity
                  style ={styles.buttonQuery}
-                 onPress={() =>{}}
+                 onPress={() =>{url}}
                 >
                     <Text style={styles.textButton}>7D</Text>
                 </TouchableOpacity>
