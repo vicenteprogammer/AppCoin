@@ -5,6 +5,26 @@ import HistoryGraphic from './src/components/HistoryGraphic';
 import QuotationList from './src/components/QuotationList';
 import QuotationItems from './src/components/QuotationList/QuotationItems';
 
+function addZero(number){
+  if(number < 9){
+    return "0" + number
+  }
+
+  return number 
+}
+
+function url(qtdDays){
+  const date = new Date()
+  const listLastDays = qtdDays
+  const endDate = ';'
+  const startDate= ''
+
+  return `https://api.coindesk.com`
+}
+
+
+
+
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>

@@ -9,7 +9,7 @@ export default function QuotationItems() {
                 <View style={styles.logo}>
                     <Image
                         style={styles.logoBit}
-                        source={require('../../../img/logobitcoin.png')}
+                        source={require('../../../img/logoEterium.png')}
                     />
                     <Text style={styles.dataQuotation}>22/02/2025</Text>
                 </View>
